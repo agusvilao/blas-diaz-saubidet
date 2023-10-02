@@ -1,0 +1,124 @@
+body{
+    text-align: center;
+    font-family: 'Gruppo', sans-serif;
+    background-color: black;
+    color: #E6E5E4;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#profile-img{
+    border-radius: 100%;
+    width: 250px;
+    border: solid 4px #D5181D;
+}
+
+#bday-age{
+ margin-bottom: 3px;
+ padding: 4px;
+ border-radius: 4px;
+}
+
+#bday-year{
+    margin-top: 3px;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.shadow{
+    text-shadow: 3px 2px 2px #D5181D;
+}
+
+.red-background{
+    background-color: #D5181D;
+}
+
+.red-color{
+    color:#D5181D;
+}
+
+
+.gif-section{
+  margin-top: 50px;
+
+
+}
+
+.gif-title{
+    margin-bottom: 0;
+}
+
+.gif-sub-title{
+    margin-top: 6px;
+}
+
+.gif-img-section{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 400px;
+
+    border: solid 4px #E6E5E4;
+    border-radius: 20px;
+    background-image: url("Images/signo-pregunta.png");
+    background-size: cover;
+
+}
+
+#img-magnate-section{
+}
+
+#img-magnate-section:hover{
+    background-image: url("https://media.giphy.com/media/S6TEoUBJuGfQCoGl8l/giphy.gif");
+    height: 300px;
+    width: 600px;
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+#img-bol-section:hover{
+    background-image: url("https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif ");
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+#img-eat-section:hover{
+    background-image: url("https://media.giphy.com/media/OflXZS0DSmCU8/giphy.gif");
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+#img-waiting-section:hover{
+    background-image: url("https://media.giphy.com/media/j9UHmOnjCNrIDZRoTe/giphy.gif");
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+#img-destinos-section:hover{
+    background-image: url("Images/destinos-blas.jpeg");
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+#img-gracias-section:hover{
+    background-image: url("Images/gracias-bla.jpeg");
+    /* https://media.giphy.com/media/Fs2gBophYnz5m/giphy.gif */
+    /* https://media.giphy.com/media/2seF7czq1x5cosT1Ef/giphy.gif */
+}
+
+.italic-style{
+    font-style: italic;
+}
+
+#foot-section{
+    margin: 30px auto 30px  auto;
+    font-style: italic;
+    width: 400px;
+
+}
+
